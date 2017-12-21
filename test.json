@@ -1,0 +1,3711 @@
+[{
+    "leader": "01177nam  2200325   4500",
+    "fields": [{
+        "001": "1"
+      },
+      {
+        "003": "MnBnMLM"
+      },
+      {
+        "005": "20170815070839.0"
+      },
+      {
+        "008": "090113s2009\\\\\\\\nju\\\\\\\\\\\\\\\\\\\\\\000\\1\\eng\\d"
+      },
+      {
+        "020": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "9781933491127"
+          }]
+        }
+      },
+      {
+        "040": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "MnBnMLM"
+            },
+            {
+              "c": "MnBnMLM"
+            },
+            {
+              "d": "MnBnMLM"
+            }
+          ]
+        }
+      },
+      {
+        "043": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "n-us---"
+          }]
+        }
+      },
+      {
+        "082": {
+          "ind1": "0",
+          "ind2": "4",
+          "subfields": [{
+              "a": "[Fic]"
+            },
+            {
+              "a": "SC"
+            },
+            {
+              "2": "22"
+            }
+          ]
+        }
+      },
+      {
+        "100": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Tyree, Omar."
+          }]
+        }
+      },
+      {
+        "245": {
+          "ind1": "1",
+          "ind2": "0",
+          "subfields": [{
+              "a": "12 brown boys \/"
+            },
+            {
+              "c": "by Mr. Creative, Omar Tyree."
+            }
+          ]
+        }
+      },
+      {
+        "246": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Twelve brown boys"
+          }]
+        }
+      },
+      {
+        "260": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "East Orange, N.J. :"
+            },
+            {
+              "b": "Just Us Books,"
+            },
+            {
+              "c": "c2009."
+            }
+          ]
+        }
+      },
+      {
+        "300": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "187 p. ;"
+            },
+            {
+              "c": "19 cm."
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "School Library Journal,"
+            },
+            {
+              "b": "12\/2008"
+            }
+          ]
+        }
+      },
+      {
+        "520": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "A collection of short stories featuring African American preteen boys as central characters. These diverse characters are funny, serious, edgy, and studious."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "5.2."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "2",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "5-8."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "760"
+            },
+            {
+              "b": "Lexile."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Accelerated Reader AR-ATOS"
+            },
+            {
+              "b": "MG"
+            },
+            {
+              "c": "5.2"
+            },
+            {
+              "d": "7.0"
+            },
+            {
+              "z": "142479."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Reading Counts RC"
+            },
+            {
+              "c": "4.6"
+            },
+            {
+              "d": "13.0"
+            },
+            {
+              "z": "47424."
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "African Americans"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Boys"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Short stories."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "655": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Short stories."
+            },
+            {
+              "2": "gsafd"
+            }
+          ]
+        }
+      },
+      {
+        "856": {
+          "ind1": "4",
+          "ind2": "2",
+          "subfields": [{
+              "3": "View cover image provided by Mackin"
+            },
+            {
+              "u": "http:\/\/www.mackin.com\/BookPics\/Book.aspx?isbn=9781933491127"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "leader": "01737pam  2200409   4500",
+    "fields": [{
+        "001": "2"
+      },
+      {
+        "003": "DLC"
+      },
+      {
+        "005": "20170815070840.0"
+      },
+      {
+        "008": "160125s2017\\\\\\\\mnua\\\\\\j\\b\\\\\\\\001\\0\\eng"
+      },
+      {
+        "010": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "  2016002319"
+          }]
+        }
+      },
+      {
+        "020": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "9781632353238"
+          }]
+        }
+      },
+      {
+        "040": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "DLC"
+            },
+            {
+              "b": "eng"
+            },
+            {
+              "e": "rda"
+            },
+            {
+              "c": "DLC"
+            },
+            {
+              "d": "MnBnMLM"
+            }
+          ]
+        }
+      },
+      {
+        "042": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "pcc"
+          }]
+        }
+      },
+      {
+        "050": {
+          "ind1": "0",
+          "ind2": "4",
+          "subfields": [{
+              "a": "TK5105.8884"
+            },
+            {
+              "b": ".K84 2017"
+            }
+          ]
+        }
+      },
+      {
+        "082": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "a": "070.5\/79734"
+            },
+            {
+              "2": "23"
+            }
+          ]
+        }
+      },
+      {
+        "100": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Krasner, Barbara,"
+            },
+            {
+              "e": "author."
+            }
+          ]
+        }
+      },
+      {
+        "245": {
+          "ind1": "1",
+          "ind2": "0",
+          "subfields": [{
+              "a": "12 great tips on writing a blog \/"
+            },
+            {
+              "c": "by Barbara Krasner."
+            }
+          ]
+        }
+      },
+      {
+        "246": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Twelve great tips on writing a blog"
+          }]
+        }
+      },
+      {
+        "264": {
+          "ind1": "\\",
+          "ind2": "1",
+          "subfields": [{
+              "a": "North Mankato, MN :"
+            },
+            {
+              "b": "12 Story Library,"
+            },
+            {
+              "c": "[2017]"
+            }
+          ]
+        }
+      },
+      {
+        "300": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "32 pages :"
+            },
+            {
+              "b": "color illustrations ;"
+            },
+            {
+              "c": "24 cm."
+            }
+          ]
+        }
+      },
+      {
+        "336": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "text"
+            },
+            {
+              "2": "rdacontent"
+            }
+          ]
+        }
+      },
+      {
+        "337": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "unmediated"
+            },
+            {
+              "2": "rdamedia"
+            }
+          ]
+        }
+      },
+      {
+        "338": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "volume"
+            },
+            {
+              "2": "rdacarrier"
+            }
+          ]
+        }
+      },
+      {
+        "490": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Great tips on writing"
+          }]
+        }
+      },
+      {
+        "504": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Includes bibliographical references and index."
+          }]
+        }
+      },
+      {
+        "505": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Have a purpose -- Know your audience -- Plan your posts -- Identify keywords -- Give away your knowledge -- Write catchy headlines -- Use white space -- Pictures say 1,000 words -- Include links -- Keep it short -- Review and edit -- Engage your audience -- Writer's checklist."
+          }]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Booklist,"
+            },
+            {
+              "b": "3\/15\/2017"
+            }
+          ]
+        }
+      },
+      {
+        "520": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Shares tips for creating and maintaining a blog. Includes a checklist, a glossary, resources for further information, and color photographs."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "2",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "3-6."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "S"
+            },
+            {
+              "b": "Fountas and Pinnell."
+            }
+          ]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "730"
+            },
+            {
+              "b": "Lexile."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Guided Reading"
+            },
+            {
+              "c": "S."
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Weblogs."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Online journalism."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "830": {
+          "ind1": "\\",
+          "ind2": "0",
+          "subfields": [{
+            "a": "Great tips on writing."
+          }]
+        }
+      },
+      {
+        "852": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "b": ""
+            },
+            {
+              "h": "CLASS G6"
+            },
+            {
+              "i": ""
+            },
+            {
+              "j": ""
+            },
+            {
+              "k": ""
+            },
+            {
+              "o": "0000-00-00"
+            },
+            {
+              "p": "30003001"
+            },
+            {
+              "q": ""
+            },
+            {
+              "r": ""
+            },
+            {
+              "s": ""
+            },
+            {
+              "t": ""
+            },
+            {
+              "z": ""
+            },
+            {
+              "9": "p9.95usd"
+            }
+          ]
+        }
+      },
+      {
+        "856": {
+          "ind1": "4",
+          "ind2": "2",
+          "subfields": [{
+              "3": "View cover image provided by Mackin"
+            },
+            {
+              "u": "http:\/\/www.mackin.com\/BookPics\/Book.aspx?isbn=9781632353238"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "leader": "02089nam  2200505   4500",
+    "fields": [{
+        "001": "12"
+      },
+      {
+        "003": "MnBnMLM"
+      },
+      {
+        "005": "20170815070842.0"
+      },
+      {
+        "008": "160602t20162015nyuj\\\\\\d\\b\\\\\\\\000\\1\\eng\\d"
+      },
+      {
+        "020": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "9781481403276"
+          }]
+        }
+      },
+      {
+        "040": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "MnBnMLM"
+            },
+            {
+              "b": "eng"
+            },
+            {
+              "c": "MnBnMLM"
+            },
+            {
+              "e": "rda"
+            },
+            {
+              "d": "MnBnMLM"
+            }
+          ]
+        }
+      },
+      {
+        "043": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "e-ur---"
+          }]
+        }
+      },
+      {
+        "050": {
+          "ind1": "0",
+          "ind2": "4",
+          "subfields": [{
+              "a": "PZ7.M5685"
+            },
+            {
+              "b": "Am 2016"
+            }
+          ]
+        }
+      },
+      {
+        "082": {
+          "ind1": "0",
+          "ind2": "4",
+          "subfields": [{
+              "a": "[Fic]"
+            },
+            {
+              "2": "23"
+            }
+          ]
+        }
+      },
+      {
+        "100": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Meyer, Carolyn,"
+            },
+            {
+              "d": "1935-"
+            },
+            {
+              "e": "author."
+            }
+          ]
+        }
+      },
+      {
+        "245": {
+          "ind1": "1",
+          "ind2": "0",
+          "subfields": [{
+              "a": "Anastasia and her sisters \/"
+            },
+            {
+              "c": "Carolyn Meyer."
+            }
+          ]
+        }
+      },
+      {
+        "250": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "First Simon & Schuster Books for Young Readers paperback edition."
+          }]
+        }
+      },
+      {
+        "264": {
+          "ind1": "\\",
+          "ind2": "1",
+          "subfields": [{
+              "a": "New York :"
+            },
+            {
+              "b": "Simon & Schuster Books for Young Readers,"
+            },
+            {
+              "c": "2016."
+            }
+          ]
+        }
+      },
+      {
+        "264": {
+          "ind1": "\\",
+          "ind2": "4",
+          "subfields": [{
+            "c": "Ã2015"
+          }]
+        }
+      },
+      {
+        "300": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "310 pages :"
+            },
+            {
+              "b": "genealogical table ;"
+            },
+            {
+              "c": "21 cm"
+            }
+          ]
+        }
+      },
+      {
+        "336": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "text"
+            },
+            {
+              "2": "rdacontent"
+            }
+          ]
+        }
+      },
+      {
+        "337": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "unmediated"
+            },
+            {
+              "2": "rdamedia"
+            }
+          ]
+        }
+      },
+      {
+        "338": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "volume"
+            },
+            {
+              "2": "rdacarrier"
+            }
+          ]
+        }
+      },
+      {
+        "504": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Includes bibliographical references."
+          }]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Horn Book Guide,"
+            },
+            {
+              "b": "10\/2015"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Publishers Weekly,"
+            },
+            {
+              "b": "3\/2\/2015"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "School Library Connection,"
+            },
+            {
+              "b": "10\/2015"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "School Library Journal,"
+            },
+            {
+              "b": "1\/2015"
+            }
+          ]
+        }
+      },
+      {
+        "520": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "A novel in diary form in which the youngest daughter of Czar Nicholas II describes the privileged life her family led up until the time of World War I and the tragic events that befell them."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "6.5."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "2",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "6-9."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "970"
+            },
+            {
+              "b": "Lexile."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Accelerated Reader AR-ATOS"
+            },
+            {
+              "b": "MG"
+            },
+            {
+              "c": "6.5"
+            },
+            {
+              "d": "13.0"
+            },
+            {
+              "z": "173539."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Reading Counts RC"
+            },
+            {
+              "c": "7.6"
+            },
+            {
+              "d": "19.0"
+            },
+            {
+              "z": "64916."
+            }
+          ]
+        }
+      },
+      {
+        "600": {
+          "ind1": "0",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Anastasia,"
+            },
+            {
+              "c": "Grand Duchess, daughter of Nicholas II, Emperor of Russia,"
+            },
+            {
+              "d": "1901-1918"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Princesses"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Sisters"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Diaries"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Historical fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "651": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Russia"
+            },
+            {
+              "x": "History"
+            },
+            {
+              "y": "0-1917"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "651": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Russia"
+            },
+            {
+              "x": "History"
+            },
+            {
+              "y": "1917-1921, Revolution"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "655": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Biographical fiction."
+            },
+            {
+              "2": "gsafd"
+            }
+          ]
+        }
+      },
+      {
+        "655": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Historical fiction."
+            },
+            {
+              "2": "gsafd"
+            }
+          ]
+        }
+      },
+      {
+        "852": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "b": ""
+            },
+            {
+              "h": "CLASS G6"
+            },
+            {
+              "i": ""
+            },
+            {
+              "j": ""
+            },
+            {
+              "k": ""
+            },
+            {
+              "o": "0000-00-00"
+            },
+            {
+              "p": "30003011"
+            },
+            {
+              "q": ""
+            },
+            {
+              "r": ""
+            },
+            {
+              "s": ""
+            },
+            {
+              "t": ""
+            },
+            {
+              "z": ""
+            },
+            {
+              "9": "p10.99usd"
+            }
+          ]
+        }
+      },
+      {
+        "856": {
+          "ind1": "4",
+          "ind2": "2",
+          "subfields": [{
+              "3": "View cover image provided by Mackin"
+            },
+            {
+              "u": "http:\/\/www.mackin.com\/BookPics\/Book.aspx?isbn=9781481403276"
+            }
+          ]
+        }
+      }
+    ]
+  }, {
+    "leader": "01700pam  2200409   4500",
+    "fields": [{
+        "001": "13"
+      },
+      {
+        "003": "DLC"
+      },
+      {
+        "005": "20170815070842.0"
+      },
+      {
+        "008": "120216s2013\\\\\\\\mnuab\\\\j\\b\\\\\\\\001\\1\\eng"
+      },
+      {
+        "010": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "  2012006809"
+          }]
+        }
+      },
+      {
+        "020": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "9781429694728"
+          }]
+        }
+      },
+      {
+        "040": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "DLC"
+            },
+            {
+              "b": "eng"
+            },
+            {
+              "c": "DLC"
+            },
+            {
+              "e": "rda"
+            },
+            {
+              "d": "DLC"
+            },
+            {
+              "d": "MnBnMLM"
+            }
+          ]
+        }
+      },
+      {
+        "042": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "pcc"
+          }]
+        }
+      },
+      {
+        "043": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "a-cc---"
+          }]
+        }
+      },
+      {
+        "050": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "a": "DS741.65"
+            },
+            {
+              "b": ".C645 2013"
+            }
+          ]
+        }
+      },
+      {
+        "082": {
+          "ind1": "0",
+          "ind2": "4",
+          "subfields": [{
+              "a": "[Fic]"
+            },
+            {
+              "a": "931"
+            },
+            {
+              "2": "23"
+            }
+          ]
+        }
+      },
+      {
+        "100": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Collins, Terry"
+            },
+            {
+              "q": "(Terry Lee),"
+            },
+            {
+              "e": "author."
+            }
+          ]
+        }
+      },
+      {
+        "245": {
+          "ind1": "1",
+          "ind2": "0",
+          "subfields": [{
+              "a": "Ancient China :"
+            },
+            {
+              "b": "an interactive history adventure \/"
+            },
+            {
+              "c": "by Terry Collins ; consultant, Hanchao Lu."
+            }
+          ]
+        }
+      },
+      {
+        "264": {
+          "ind1": "\\",
+          "ind2": "1",
+          "subfields": [{
+              "a": "North Mankato, Minnesota :"
+            },
+            {
+              "b": "Capstone Books,"
+            },
+            {
+              "c": "[2013]"
+            }
+          ]
+        }
+      },
+      {
+        "300": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "112 pages :"
+            },
+            {
+              "b": "illustrations (chiefly color), color maps ;"
+            },
+            {
+              "c": "20 cm."
+            }
+          ]
+        }
+      },
+      {
+        "336": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "text"
+            },
+            {
+              "2": "rdacontent"
+            }
+          ]
+        }
+      },
+      {
+        "337": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "unmediated"
+            },
+            {
+              "2": "rdamedia"
+            }
+          ]
+        }
+      },
+      {
+        "338": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "volume"
+            },
+            {
+              "2": "rdacarrier"
+            }
+          ]
+        }
+      },
+      {
+        "490": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "You choose books. Historical eras"
+          }]
+        }
+      },
+      {
+        "504": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Includes bibliographical references and index."
+          }]
+        }
+      },
+      {
+        "520": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Contains a choose-your-own-path story describing the life and times of ancient China. The reader's choices reveal the historical details of life from the perspectives of several characters. Includes forty-three choices and twenty-four endings."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "2",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "4-6."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "T"
+            },
+            {
+              "b": "Fountas and Pinnell."
+            }
+          ]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "710"
+            },
+            {
+              "b": "Lexile."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Guided Reading"
+            },
+            {
+              "c": "T."
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Plot-your-own stories."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Historical fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "651": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "China"
+            },
+            {
+              "x": "Civilization"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "655": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Historical fiction."
+            },
+            {
+              "2": "gsafd"
+            }
+          ]
+        }
+      },
+      {
+        "830": {
+          "ind1": "\\",
+          "ind2": "0",
+          "subfields": [{
+              "a": "You choose books."
+            },
+            {
+              "p": "Historical eras."
+            }
+          ]
+        }
+      },
+      {
+        "852": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "b": ""
+            },
+            {
+              "h": "CLASS G6"
+            },
+            {
+              "i": ""
+            },
+            {
+              "j": ""
+            },
+            {
+              "k": ""
+            },
+            {
+              "o": "0000-00-00"
+            },
+            {
+              "p": "30003012"
+            },
+            {
+              "q": ""
+            },
+            {
+              "r": ""
+            },
+            {
+              "s": ""
+            },
+            {
+              "t": ""
+            },
+            {
+              "z": ""
+            },
+            {
+              "9": "p6.95usd"
+            }
+          ]
+        }
+      },
+      {
+        "856": {
+          "ind1": "4",
+          "ind2": "2",
+          "subfields": [{
+              "3": "View cover image provided by Mackin"
+            },
+            {
+              "u": "http:\/\/www.mackin.com\/BookPics\/Book.aspx?isbn=9781429694728"
+            }
+          ]
+        }
+      }
+    ]
+  }, {
+    "leader": "01694pam  2200445   4500",
+    "fields": [{
+        "001": "14"
+      },
+      {
+        "003": "DLC"
+      },
+      {
+        "005": "20170815070842.0"
+      },
+      {
+        "008": "160107s2016\\\\\\\\caua\\\\\\j\\\\\\\\\\\\001\\0\\eng"
+      },
+      {
+        "010": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "  2014045243"
+          }]
+        }
+      },
+      {
+        "020": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "9781480746787"
+          }]
+        }
+      },
+      {
+        "040": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "NJQ\/DLC"
+            },
+            {
+              "b": "eng"
+            },
+            {
+              "c": "NJQ"
+            },
+            {
+              "e": "rda"
+            },
+            {
+              "d": "MnBnMLM"
+            }
+          ]
+        }
+      },
+      {
+        "042": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "pcc"
+          }]
+        }
+      },
+      {
+        "050": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "a": "QP431"
+            },
+            {
+              "b": ".B78 2016"
+            }
+          ]
+        }
+      },
+      {
+        "082": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "a": "573.8\/7"
+            },
+            {
+              "2": "23"
+            }
+          ]
+        }
+      },
+      {
+        "100": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Buchanan, Shelly,"
+            },
+            {
+              "e": "author."
+            }
+          ]
+        }
+      },
+      {
+        "245": {
+          "ind1": "1",
+          "ind2": "0",
+          "subfields": [{
+              "a": "Animal senses \/"
+            },
+            {
+              "c": "Shelly C. Buchanan."
+            }
+          ]
+        }
+      },
+      {
+        "264": {
+          "ind1": "\\",
+          "ind2": "1",
+          "subfields": [{
+              "a": "Huntington Beach, CA :"
+            },
+            {
+              "b": "Teacher Created Materials,"
+            },
+            {
+              "c": "[2016]"
+            }
+          ]
+        }
+      },
+      {
+        "300": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "32 pages :"
+            },
+            {
+              "b": "illustrations (some color) ;"
+            },
+            {
+              "c": "24 cm."
+            }
+          ]
+        }
+      },
+      {
+        "336": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "text"
+            },
+            {
+              "2": "rdacontent"
+            }
+          ]
+        }
+      },
+      {
+        "337": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "unmediated"
+            },
+            {
+              "2": "rdamedia"
+            }
+          ]
+        }
+      },
+      {
+        "338": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "volume"
+            },
+            {
+              "2": "rdacarrier"
+            }
+          ]
+        }
+      },
+      {
+        "490": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Life science"
+          }]
+        }
+      },
+      {
+        "500": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Includes index."
+          }]
+        }
+      },
+      {
+        "505": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Amazing abilities -- Eyes have it -- Hear ye! hear ye! -- Whose nose knows? -- Tongues for tasting -- Touch & feel -- Power of information -- Think like a scientist?"
+          }]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Booklist,"
+            },
+            {
+              "b": "9\/15\/2015"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "School Library Connection,"
+            },
+            {
+              "b": "4\/2016"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "School Library Journal,"
+            },
+            {
+              "b": "11\/2015"
+            }
+          ]
+        }
+      },
+      {
+        "520": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Describes the different ways animals use their senses to learn about the world around them."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "4.7."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "2",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "3-6."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Q"
+            },
+            {
+              "b": "Fountas and Pinnell."
+            }
+          ]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "780"
+            },
+            {
+              "b": "Lexile."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Accelerated Reader AR-ATOS"
+            },
+            {
+              "b": "MG"
+            },
+            {
+              "c": "4.7"
+            },
+            {
+              "d": "0.5"
+            },
+            {
+              "z": "178974."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Guided Reading"
+            },
+            {
+              "c": "Q."
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Senses and sensation."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Animals."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "830": {
+          "ind1": "\\",
+          "ind2": "0",
+          "subfields": [{
+            "a": "Life science (Teacher Created Materials, Inc.)"
+          }]
+        }
+      },
+      {
+        "852": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "b": ""
+            },
+            {
+              "h": "CLASS G6"
+            },
+            {
+              "i": ""
+            },
+            {
+              "j": ""
+            },
+            {
+              "k": ""
+            },
+            {
+              "o": "0000-00-00"
+            },
+            {
+              "p": "30003013"
+            },
+            {
+              "q": ""
+            },
+            {
+              "r": ""
+            },
+            {
+              "s": ""
+            },
+            {
+              "t": ""
+            },
+            {
+              "z": ""
+            },
+            {
+              "9": "p8.99usd"
+            }
+          ]
+        }
+      },
+      {
+        "856": {
+          "ind1": "4",
+          "ind2": "2",
+          "subfields": [{
+              "3": "View cover image provided by Mackin"
+            },
+            {
+              "u": "http:\/\/www.mackin.com\/BookPics\/Book.aspx?isbn=9781480746787"
+            }
+          ]
+        }
+      }
+    ]
+  }, {
+    "leader": "01647pam  2200433   4500",
+    "fields": [{
+        "001": "15"
+      },
+      {
+        "003": "DLC"
+      },
+      {
+        "005": "20170815070842.0"
+      },
+      {
+        "008": "140131s2015\\\\\\\\nyua\\\\\\j\\b\\\\\\\\001\\0beng"
+      },
+      {
+        "010": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "  2014004442"
+          }]
+        }
+      },
+      {
+        "020": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "9780531212721"
+          }]
+        }
+      },
+      {
+        "040": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "DLC"
+            },
+            {
+              "b": "eng"
+            },
+            {
+              "e": "rda"
+            },
+            {
+              "c": "DLC"
+            },
+            {
+              "d": "MnBnMLM"
+            }
+          ]
+        }
+      },
+      {
+        "042": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "pcc"
+          }]
+        }
+      },
+      {
+        "043": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "n-us---"
+          }]
+        }
+      },
+      {
+        "050": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "a": "ML3930.G724"
+            },
+            {
+              "b": "M67 2015"
+            }
+          ]
+        }
+      },
+      {
+        "082": {
+          "ind1": "0",
+          "ind2": "4",
+          "subfields": [{
+              "a": "782.42164\/092"
+            },
+            {
+              "a": "B"
+            },
+            {
+              "2": "23"
+            }
+          ]
+        }
+      },
+      {
+        "100": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Morreale, Marie,"
+            },
+            {
+              "e": "author."
+            }
+          ]
+        }
+      },
+      {
+        "245": {
+          "ind1": "1",
+          "ind2": "0",
+          "subfields": [{
+              "a": "Ariana Grande \/"
+            },
+            {
+              "c": "by Marie Morreale."
+            }
+          ]
+        }
+      },
+      {
+        "264": {
+          "ind1": "\\",
+          "ind2": "1",
+          "subfields": [{
+              "a": "New York, New York :"
+            },
+            {
+              "b": "Children's Press,"
+            },
+            {
+              "c": "2015."
+            }
+          ]
+        }
+      },
+      {
+        "300": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "48 pages :"
+            },
+            {
+              "b": "color illustrations ;"
+            },
+            {
+              "c": "24 cm."
+            }
+          ]
+        }
+      },
+      {
+        "336": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "text"
+            },
+            {
+              "2": "rdacontent"
+            }
+          ]
+        }
+      },
+      {
+        "337": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "unmediated"
+            },
+            {
+              "2": "rdamedia"
+            }
+          ]
+        }
+      },
+      {
+        "338": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "volume"
+            },
+            {
+              "2": "rdacarrier"
+            }
+          ]
+        }
+      },
+      {
+        "490": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Real bios"
+          }]
+        }
+      },
+      {
+        "504": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Includes bibliographical references and index."
+          }]
+        }
+      },
+      {
+        "505": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Born to sing! -- On the job -- Q & A -- Bits & pieces -- What's next?"
+          }]
+        }
+      },
+      {
+        "520": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Presents a biography of singer Ariana Grande, covering her early years, her path to stardom, and her goals for the future. Includes an index, a list of additional resources, and a glossary."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "5.3."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "2",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "4-6."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "890"
+            },
+            {
+              "b": "Lexile."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Accelerated Reader AR-ATOS"
+            },
+            {
+              "b": "MG"
+            },
+            {
+              "c": "5.3"
+            },
+            {
+              "d": "1.0"
+            },
+            {
+              "z": "169176."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Reading Counts RC"
+            },
+            {
+              "c": "5.7"
+            },
+            {
+              "d": "4.0"
+            },
+            {
+              "z": "64597."
+            }
+          ]
+        }
+      },
+      {
+        "600": {
+          "ind1": "1",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Grande, Ariana."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Singers"
+            },
+            {
+              "v": "Biography."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Actors"
+            },
+            {
+              "v": "Biography."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Women"
+            },
+            {
+              "v": "Biography."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "800": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Morreale, Marie."
+            },
+            {
+              "t": "Real bios."
+            }
+          ]
+        }
+      },
+      {
+        "852": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "b": ""
+            },
+            {
+              "h": "CLASS G6"
+            },
+            {
+              "i": ""
+            },
+            {
+              "j": ""
+            },
+            {
+              "k": ""
+            },
+            {
+              "o": "0000-00-00"
+            },
+            {
+              "p": "30003014"
+            },
+            {
+              "q": ""
+            },
+            {
+              "r": ""
+            },
+            {
+              "s": ""
+            },
+            {
+              "t": ""
+            },
+            {
+              "z": ""
+            },
+            {
+              "9": "p7.95usd"
+            }
+          ]
+        }
+      },
+      {
+        "856": {
+          "ind1": "4",
+          "ind2": "2",
+          "subfields": [{
+              "3": "View cover image provided by Mackin"
+            },
+            {
+              "u": "http:\/\/www.mackin.com\/BookPics\/Book.aspx?isbn=9780531212721"
+            }
+          ]
+        }
+      }
+    ]
+  }, {
+    "leader": "02175nam  2200529   4500",
+    "fields": [{
+        "001": "16"
+      },
+      {
+        "003": "MnBnMLM"
+      },
+      {
+        "005": "20170815070842.0"
+      },
+      {
+        "008": "150113t20142011mauab\\\\\\\\6b\\\\\\000\\0\\eng\\d"
+      },
+      {
+        "020": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "9780763669256"
+          }]
+        }
+      },
+      {
+        "040": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "MnBnMLM"
+            },
+            {
+              "b": "eng"
+            },
+            {
+              "c": "MnBnMLM"
+            },
+            {
+              "e": "rda"
+            },
+            {
+              "d": "MnBnMLM"
+            }
+          ]
+        }
+      },
+      {
+        "050": {
+          "ind1": "1",
+          "ind2": "4",
+          "subfields": [{
+              "a": "PZ7.7.P52"
+            },
+            {
+              "b": "Ar 2014"
+            }
+          ]
+        }
+      },
+      {
+        "082": {
+          "ind1": "0",
+          "ind2": "4",
+          "subfields": [{
+              "a": "741.5\/973"
+            },
+            {
+              "2": "23"
+            }
+          ]
+        }
+      },
+      {
+        "100": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Phelan, Matt,"
+            },
+            {
+              "e": "author."
+            }
+          ]
+        }
+      },
+      {
+        "245": {
+          "ind1": "1",
+          "ind2": "0",
+          "subfields": [{
+              "a": "Around the world \/"
+            },
+            {
+              "c": "Matt Phelan."
+            }
+          ]
+        }
+      },
+      {
+        "250": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "First paperback edition."
+          }]
+        }
+      },
+      {
+        "264": {
+          "ind1": "\\",
+          "ind2": "1",
+          "subfields": [{
+              "a": "Somerville, Massachusetts :"
+            },
+            {
+              "b": "Candlewick Press,"
+            },
+            {
+              "c": "2014."
+            }
+          ]
+        }
+      },
+      {
+        "264": {
+          "ind1": "\\",
+          "ind2": "4",
+          "subfields": [{
+            "c": "Ã2011"
+          }]
+        }
+      },
+      {
+        "300": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "235 pages :"
+            },
+            {
+              "b": "chiefly color illustrations, color map ;"
+            },
+            {
+              "c": "21 cm"
+            }
+          ]
+        }
+      },
+      {
+        "336": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "text"
+            },
+            {
+              "2": "rdacontent"
+            }
+          ]
+        }
+      },
+      {
+        "336": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "still image"
+            },
+            {
+              "2": "rdacontent"
+            }
+          ]
+        }
+      },
+      {
+        "337": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "unmediated"
+            },
+            {
+              "2": "rdamedia"
+            }
+          ]
+        }
+      },
+      {
+        "338": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "volume"
+            },
+            {
+              "2": "rdacarrier"
+            }
+          ]
+        }
+      },
+      {
+        "504": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Includes bibliographical references."
+          }]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Bulletin of the Center for Children's Books,"
+            },
+            {
+              "b": "10\/2011"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Booklist,"
+            },
+            {
+              "b": "9\/15\/2011"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Horn Book Guide,"
+            },
+            {
+              "b": "4\/2012"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Kirkus Review,"
+            },
+            {
+              "b": "8\/15\/2011"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Library Media Connection,"
+            },
+            {
+              "b": "1\/2012"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Publishers Weekly,"
+            },
+            {
+              "b": "8\/1\/2011"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "School Library Journal,"
+            },
+            {
+              "b": "9\/2011"
+            }
+          ]
+        }
+      },
+      {
+        "520": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "Challenged with circling the world at the end of the nineteenth century, three very different adventurers--avid bicyclist Thomas Stevens, fearless reporter Nellie Bly, and retired sea captain Joshua Slocum--embark on epic journeys."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "4.6."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "2",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "4-8."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "GN 710"
+            },
+            {
+              "b": "Lexile."
+            }
+          ]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "U"
+            },
+            {
+              "b": "Fountas and Pinnell."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Accelerated Reader AR-ATOS"
+            },
+            {
+              "b": "MG"
+            },
+            {
+              "c": "4.6"
+            },
+            {
+              "d": "1.0"
+            },
+            {
+              "z": "146321."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Reading Counts RC"
+            },
+            {
+              "c": "4.4"
+            },
+            {
+              "d": "4.0"
+            },
+            {
+              "z": "55218."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Guided Reading"
+            },
+            {
+              "c": "U."
+            }
+          ]
+        }
+      },
+      {
+        "600": {
+          "ind1": "1",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Stevens, Thomas,"
+            },
+            {
+              "d": "1854-1935"
+            },
+            {
+              "v": "Graphic novels."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "600": {
+          "ind1": "1",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Bly, Nellie,"
+            },
+            {
+              "d": "1864-1922"
+            },
+            {
+              "v": "Graphic novels."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "600": {
+          "ind1": "1",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Slocum, Joshua,"
+            },
+            {
+              "d": "1844-1909"
+            },
+            {
+              "v": "Graphic novels."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Voyages around the world"
+            },
+            {
+              "v": "Graphic novels."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Adventure graphic novels."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Graphic novels."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "852": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "b": ""
+            },
+            {
+              "h": "CLASS G6"
+            },
+            {
+              "i": ""
+            },
+            {
+              "j": ""
+            },
+            {
+              "k": ""
+            },
+            {
+              "o": "0000-00-00"
+            },
+            {
+              "p": "30003015"
+            },
+            {
+              "q": ""
+            },
+            {
+              "r": ""
+            },
+            {
+              "s": ""
+            },
+            {
+              "t": ""
+            },
+            {
+              "z": ""
+            },
+            {
+              "9": "p12.99usd"
+            }
+          ]
+        }
+      },
+      {
+        "856": {
+          "ind1": "4",
+          "ind2": "2",
+          "subfields": [{
+              "3": "View cover image provided by Mackin"
+            },
+            {
+              "u": "http:\/\/www.mackin.com\/BookPics\/Book.aspx?isbn=9780763669256"
+            }
+          ]
+        }
+      }
+    ]
+  }, {
+    "leader": "02283nam  2200565   4500",
+    "fields": [{
+        "001": "17"
+      },
+      {
+        "003": "MnBnMLM"
+      },
+      {
+        "005": "20170815070842.0"
+      },
+      {
+        "008": "090724r20092001nyu\\\\\\\\c\\\\\\\\\\\\000\\1\\eng\\d"
+      },
+      {
+        "020": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "9781423124528"
+          }]
+        }
+      },
+      {
+        "040": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "MnBnMLM"
+            },
+            {
+              "b": "eng"
+            },
+            {
+              "c": "MnBnMLM"
+            },
+            {
+              "d": "MnBnMLM"
+            },
+            {
+              "e": "rda"
+            }
+          ]
+        }
+      },
+      {
+        "043": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "e-uk-en"
+          }]
+        }
+      },
+      {
+        "050": {
+          "ind1": "1",
+          "ind2": "4",
+          "subfields": [{
+              "a": "PZ7.C677475"
+            },
+            {
+              "b": "Ar 2009"
+            }
+          ]
+        }
+      },
+      {
+        "082": {
+          "ind1": "0",
+          "ind2": "4",
+          "subfields": [{
+              "a": "[Fic]"
+            },
+            {
+              "2": "23"
+            }
+          ]
+        }
+      },
+      {
+        "100": {
+          "ind1": "1",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Colfer, Eoin,"
+            },
+            {
+              "e": "author."
+            }
+          ]
+        }
+      },
+      {
+        "245": {
+          "ind1": "1",
+          "ind2": "0",
+          "subfields": [{
+              "a": "Artemis Fowl \/"
+            },
+            {
+              "c": "Eoin Colfer."
+            }
+          ]
+        }
+      },
+      {
+        "250": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "New Disney\/Hyperion paperback edition."
+          }]
+        }
+      },
+      {
+        "264": {
+          "ind1": "\\",
+          "ind2": "1",
+          "subfields": [{
+              "a": "New York :"
+            },
+            {
+              "b": "Disney\/Hyperion Books,"
+            },
+            {
+              "c": "2009."
+            }
+          ]
+        }
+      },
+      {
+        "264": {
+          "ind1": "\\",
+          "ind2": "4",
+          "subfields": [{
+            "c": "Ã2001"
+          }]
+        }
+      },
+      {
+        "300": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "277 pages ;"
+            },
+            {
+              "c": "20 cm"
+            }
+          ]
+        }
+      },
+      {
+        "336": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "text"
+            },
+            {
+              "2": "rdacontent"
+            }
+          ]
+        }
+      },
+      {
+        "337": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "unmediated"
+            },
+            {
+              "2": "rdamedia"
+            }
+          ]
+        }
+      },
+      {
+        "338": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "volume"
+            },
+            {
+              "2": "rdacarrier"
+            }
+          ]
+        }
+      },
+      {
+        "500": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "\"Can you crack the code? The code that runs along the bottom of the book has been specially created by the author. Readers can crack the code to reveal the secret message\"--Title page verso."
+          }]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Booklist,"
+            },
+            {
+              "b": "4\/15\/2001"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Book Report,"
+            },
+            {
+              "b": "9\/2001"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Horn Book Guide,"
+            },
+            {
+              "b": "10\/2001"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Horn Book Magazine,"
+            },
+            {
+              "b": "7\/2001"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Kirkus Review,"
+            },
+            {
+              "b": "4\/1\/2001"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Library Journal,"
+            },
+            {
+              "b": "6\/15\/2001"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "New York Times Review of Books,"
+            },
+            {
+              "b": "6\/17\/2001"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Publishers Weekly,"
+            },
+            {
+              "b": "4\/9\/2001"
+            }
+          ]
+        }
+      },
+      {
+        "510": {
+          "ind1": "3",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Voice of Youth Advocates,"
+            },
+            {
+              "b": "8\/2001"
+            }
+          ]
+        }
+      },
+      {
+        "520": {
+          "ind1": "\\",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "When a twelve-year-old evil genius tries to restore his family fortune by capturing a fairy and demanding a ransom in gold, the fairies fight back with magic, technology, and a particularly nasty troll."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "5."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "2",
+          "ind2": "\\",
+          "subfields": [{
+            "a": "6-9."
+          }]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "600"
+            },
+            {
+              "b": "Lexile."
+            }
+          ]
+        }
+      },
+      {
+        "521": {
+          "ind1": "8",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Y"
+            },
+            {
+              "b": "Fountas and Pinnell."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Accelerated Reader AR-ATOS"
+            },
+            {
+              "b": "MG"
+            },
+            {
+              "c": "5.0"
+            },
+            {
+              "d": "9.0"
+            },
+            {
+              "z": "54675."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Reading Counts RC"
+            },
+            {
+              "c": "6.2"
+            },
+            {
+              "d": "14.0"
+            },
+            {
+              "z": "24938."
+            }
+          ]
+        }
+      },
+      {
+        "526": {
+          "ind1": "0",
+          "ind2": "\\",
+          "subfields": [{
+              "a": "Guided Reading"
+            },
+            {
+              "c": "Y."
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Fairies"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Kidnapping"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Magic"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "650": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Mother-son relationship"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "651": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "England"
+            },
+            {
+              "v": "Fiction."
+            },
+            {
+              "2": "sears"
+            }
+          ]
+        }
+      },
+      {
+        "655": {
+          "ind1": "\\",
+          "ind2": "7",
+          "subfields": [{
+              "a": "Fantasy fiction."
+            },
+            {
+              "2": "gsafd"
+            }
+          ]
+        }
+      },
+      {
+        "852": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "b": ""
+            },
+            {
+              "h": "CLASS G6"
+            },
+            {
+              "i": ""
+            },
+            {
+              "j": ""
+            },
+            {
+              "k": ""
+            },
+            {
+              "o": "0000-00-00"
+            },
+            {
+              "p": "30003016"
+            },
+            {
+              "q": ""
+            },
+            {
+              "r": ""
+            },
+            {
+              "s": ""
+            },
+            {
+              "t": ""
+            },
+            {
+              "z": ""
+            },
+            {
+              "9": "p8.99usd"
+            }
+          ]
+        }
+      },
+      {
+        "852": {
+          "ind1": "0",
+          "ind2": "0",
+          "subfields": [{
+              "b": ""
+            },
+            {
+              "h": "CLASS G7"
+            },
+            {
+              "i": ""
+            },
+            {
+              "j": ""
+            },
+            {
+              "k": ""
+            },
+            {
+              "o": "0000-00-00"
+            },
+            {
+              "p": "30003609"
+            },
+            {
+              "q": ""
+            },
+            {
+              "r": ""
+            },
+            {
+              "s": ""
+            },
+            {
+              "t": ""
+            },
+            {
+              "z": ""
+            },
+            {
+              "9": "p8.99usd"
+            }
+          ]
+        }
+      },
+      {
+        "856": {
+          "ind1": "4",
+          "ind2": "2",
+          "subfields": [{
+              "3": "View cover image provided by Mackin"
+            },
+            {
+              "u": "http:\/\/www.mackin.com\/BookPics\/Book.aspx?isbn=9781423124528"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

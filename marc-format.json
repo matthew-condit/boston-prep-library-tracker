@@ -1,0 +1,83 @@
+{
+  "020": {
+    "subfields": [
+      {
+        "a": "12345676543"
+      }
+    ]
+  },
+  "100": {
+    "subfields":[
+      {
+        "a": "Last, First Author"
+      }
+    ]
+  },
+  "245": {
+    "subfields": [
+      {
+        "a": "This is the title"
+      }
+    ]
+  },
+  "300": {
+    "subfields": [
+      {
+        "a": "186 p. //for pages"
+      }
+    ]
+  },
+  "520": {
+    "subfields": [
+      {
+        "a": "This is the description"
+      }
+    ]
+  },
+  "521": {
+    "ind1": "8",
+    "subfields": [
+      {
+        "a": "760"
+      },
+      {
+        "b": "Lexile."
+      }
+    ]
+  },
+  "650": {
+    "subfields": [
+      {
+        "a": "Genre"
+      }
+    ]
+  },
+  "650": {
+    "subfields": [
+      {
+        "a": "Genre"
+      },
+      {
+        "c": "Fiction"
+      }
+    ]
+  }
+}
+
+
+// End format
+{
+  "id": "123456",
+  "title": "This is the title",
+  "author": "Last, First Author",
+  "description": "This is the description",
+  "pages": "186 p.",
+  "lexile": "760",
+  "tags": [
+    "Genre",
+    "Genre",
+    "Genre",
+    "Genre"
+  ],
+  "fiction": "boolean"
+}
