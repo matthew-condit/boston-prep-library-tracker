@@ -37,10 +37,10 @@ const onLoginButtonClicked = ({ email, password, setErrors, login }) => async ()
         if (res.status === 200) {
             login()
         } else {
-            console.log(res.data.message)
+            console.log(res)
         }
     } catch (e) {
-
+        console.log('e', e)
     }
 
 
