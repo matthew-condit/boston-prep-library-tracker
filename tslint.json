@@ -19,6 +19,8 @@
         "indent": [ true, "spaces" ],
         "interface-name": [true, "never-prefix"],
         "jsdoc-format": true,
+        "quotemark": [true, "single", "jsx-double"],
+        "semicolon": [true, "always", "ignore-interfaces"],
         "jsx-no-lambda": false,
         "jsx-no-multiline-js": false,
         "label-position": true,

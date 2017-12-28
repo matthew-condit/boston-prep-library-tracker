@@ -7,11 +7,15 @@ import {BrowserRouter} from 'react-router-dom';
 import {Routes, NavHeader} from './components/routes/routeComponents';
 
 import Landing from './components/landing/landing';
+import Register from './components/register/registerComponent';
+import UsersList from './components/userList/userList';
 
 class App extends React.Component {
   render() {
     const routesProps = {
-      Landing
+      Landing,
+      Register,
+      UsersList
     }
     return (
       <div className="App">

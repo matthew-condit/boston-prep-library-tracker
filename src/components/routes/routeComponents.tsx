@@ -12,13 +12,15 @@ const WrappedNavLink = (props) => {
 
 const NavHeader = () => {
 
-    const authenticated = true;
+    const authenticated = false;
     const onLogout = () => console.log('onLogout');
 
     if (!authenticated) {
         return (
             <div className='navHeader'>
                 <WrappedNavLink to='/auth/login'>Login</WrappedNavLink>
+                <WrappedNavLink to='/register'>Register</WrappedNavLink>
+                <WrappedNavLink to='/users'>UsersList</WrappedNavLink>
             </div>
         )
     } else {
@@ -34,10 +36,12 @@ const NavHeader = () => {
 };
 // can you spread an object into another object?!?!
 // plz research
-const Routes = ({Landing}: any) => {
+const Routes = ({Landing, Register, UsersList}: any) => {
     return (
         <div className='route-wrapper'>
              <Route exact path="/" component={Landing}/> 
+             <Route path="/register" component={Register}/>
+             <Route path='/users' component={UsersList}/> 
         </div>
     )
 };

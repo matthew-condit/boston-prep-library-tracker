@@ -14,19 +14,10 @@ const middleware = [
     routerMiddleware(history)
 ];
 
-// if (process.env.NODE_ENV === 'development') {
-//     const devToolsExtension = window.devToolsExtension || null;
-
-//     if (typeof devToolsExtension === 'function') {
-//         enhancers.push(devToolsExtension())
-//     }
-// }
-
 const composedEhancers = compose(
     applyMiddleware(...middleware),
     ...enhancers
 );
-
 
 const store = createStore(
     rootReducer,
