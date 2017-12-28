@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { compose, withState, withHandlers } from 'recompose';
 import {Redirect} from 'react-router-dom';
+import { connect } from 'react-redux';
 import axios from 'axios';
 import actions from '../../redux/actions/auth';
 import LabeledInput from '../common/labeledInput/labeledInput';
@@ -82,6 +83,12 @@ const loginPure = ({ email, onEmailChange,
             <button onClick={onLoginButtonClicked} className='login-page__submit-button'>Log In</button>
         </div>
     );
-}
+};
 
-export default enhance(loginPure);
+const enhanced = enhance(loginPure);
+
+const Login = connect(
+    mapStateToProps,
+    mapDispatchToProps,
+)(enhanced);
+export default Login;

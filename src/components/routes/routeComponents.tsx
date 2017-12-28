@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { NavLink } from 'react-router-dom';
-import { Route } from 'react-router';
-import { connect } from 'react-redux';
+import {NavLink} from 'react-router-dom';
+import {Route} from 'react-router';
+import {connect} from 'react-redux';
 import actions from '../../redux/actions/auth';
 import './routeStyles.css';
 
@@ -11,14 +11,13 @@ const WrappedNavLink = (props) => {
     );
 };
 
-const NavHeaderPure = ({ authenticated, login, logout }) => {
+const NavHeaderPure = ({authenticated, login, logout}) => {
 
     if (!authenticated) {
         return (
             <div className='nav-header'>
                 <WrappedNavLink to='/login'>Login</WrappedNavLink>
                 <WrappedNavLink to='/register'>Register</WrappedNavLink>
-                <div className='nav-link' onClick={login}>Fake Login</div>
             </div>
         )
     } else {
@@ -35,41 +34,43 @@ const NavHeaderPure = ({ authenticated, login, logout }) => {
 
 // can you spread an object into another object?!?!
 // plz research
-const Routes = ({ Landing, Login, Register, UsersList }: any) => {
+const Routes = ({Landing, Login, Register, UsersList}: any) => {
     return (
         <div className='route-wrapper'>
-            <Route exact path="/" component={Landing} />
-            <Route path="/register" component={Register} />
-            <Route path='/users' component={UsersList} />
-            <Route path='/login' component={Login} />
+            <Route exact path="/" component={Landing}/>
+            <Route path="/register" component={Register}/>
+            <Route path='/users' component={UsersList}/>
+            <Route path='/login' component={Login}/>
         </div>
     )
 };
 
 const mapStateToProps = state => {
     return {
-                authenticated : state.authReducer.authenticated
+        authenticated: state.authReducer.authenticated
     }
 }
 
 const mapDispatchToProps = dispatch => {
-  return {
-                login: () => {
-                dispatch(actions.login())
-            },
-    logout: () => {
-                dispatch(actions.logout())
-            }
-            }
+    return {
+        login: () => {
+            dispatch(actions.login())
+        },
+        logout: () => {
+            dispatch(actions.logout())
+        }
+    }
 }
 
-const NavHeader =  connect(
-  mapStateToProps,
-  mapDispatchToProps
+const NavHeader = connect(
+    mapStateToProps,
+    mapDispatchToProps,
+    null,
+    {pure: false}
 )(NavHeaderPure);
 
 
 export {
-                NavHeader,
-            Routes
+    NavHeader,
+    Routes
 };

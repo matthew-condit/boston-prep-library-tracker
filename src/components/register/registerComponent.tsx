@@ -3,8 +3,26 @@ import { compose, withState, withHandlers } from 'recompose';
 import axios from 'axios';
 import { Redirect } from 'react-router-dom';
 import LabeledInput from '../common/labeledInput/labeledInput';
+import actions from '../../redux/actions/auth';
+import { connect } from 'react-redux';
 
-const onRegisterSubmit = ({ firstName, lastName, email, password, setRegisterSuccessful }) => async () => {
+
+
+const mapStateToProps = state => {
+    return {
+        authenticated: state.authReducer.authenticated
+    }
+}
+
+const mapDispatchToProps = dispatch => {
+    return {
+        login: () => {
+            dispatch(actions.login())
+        }
+    }
+}
+
+const onRegisterSubmit = ({ firstName, lastName, email, password, setRegisterSuccessful, login }) => async () => {
 
     try {
         await axios.post('/users/register', {
@@ -14,7 +32,7 @@ const onRegisterSubmit = ({ firstName, lastName, email, password, setRegisterSuc
             password
         });
         setRegisterSuccessful(true);
-
+        login()
     } catch (e) {
         console.error(e);
     }
@@ -65,4 +83,7 @@ const RegisterPure = ({ firstName, onFirstNameChange,
 };
 
 
-export default enhance(RegisterPure);
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps,
+)(enhance(RegisterPure));

@@ -6,7 +6,6 @@ import UserItem from './userItem/userItem';
 const withUserData = lifecycle({
     componentWillMount: async function () {
         const userData = await axios.get('users');
-        console.warn(userData);
         // need to fix this on backend
         this.props.setUserList(userData.data.data);
     }
@@ -18,11 +17,10 @@ const enhance = compose(
 );
 
 const userListPure = ({ userList }: any) => {
-    console.error(userList);
     return (
         <div><h1>userList</h1>
             {
-                userList.map(user => (<UserItem user={user} />))
+                userList.map(user => (<UserItem key={user.id} user={user} />))
             }
         </div>
     );

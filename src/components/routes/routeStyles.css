@@ -1,13 +1,16 @@
 .nav-header {
     display: flex;
-     background-color: #B22329; 
+     background-color: #B22329;
+    box-shadow: 1px 3px 5px #aaa;
+    padding: 0 20px;
 }
 
 .nav-link {
     font-weight: bold;
     color: #F8B33C;
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
+    cursor: pointer;
 }
 
 .nav-link:hover {
