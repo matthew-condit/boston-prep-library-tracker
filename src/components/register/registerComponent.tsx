@@ -1,16 +1,11 @@
 import * as React from 'react';
 import { compose, withState, withHandlers } from 'recompose';
 import axios from 'axios';
+import { Redirect } from 'react-router-dom';
+import LabeledInput from '../common/labeledInput/labeledInput';
 
-const LabeledInput = ({ label, ...rest }) => (
-    <div>
-        <label>{label}</label>
-        <input {...rest} />
-    </div>
-);
+const onRegisterSubmit = ({ firstName, lastName, email, password, setRegisterSuccessful }) => async () => {
 
-const onRegisterSubmit = ({ firstName, lastName, email, password }) => async () => {
-    console.error(firstName, lastName);
     try {
         await axios.post('/users/register', {
             firstName,
@@ -18,12 +13,12 @@ const onRegisterSubmit = ({ firstName, lastName, email, password }) => async () 
             email,
             password
         });
+        setRegisterSuccessful(true);
+
     } catch (e) {
         console.error(e);
     }
 }
-
-
 
 const enhance = compose(
     withState('firstName', 'setFirstName', ''),
@@ -31,6 +26,7 @@ const enhance = compose(
     withState('email', 'setEmail', ''),
     withState('password', 'setPassword', ''),
     withState('confirmPassword', 'setConfirmPassword', ''),
+    withState('registerSuccessful', 'setRegisterSuccessful', false),
     withHandlers({
         onFirstNameChange: props => event => props.setFirstName(event.target.value),
         onLastNameChange: props => event => props.setLastName(event.target.value),
@@ -45,20 +41,27 @@ const RegisterPure = ({ firstName, onFirstNameChange,
     email, onEmailChange,
     password, onPasswordChange,
     confirmPassword, onCOnfirmPasswordChange,
-    onRegisterSubmit }: any) => {
-    return (
-        <div>
-            <h1>Register For Boston Prep Lib</h1>
+    onRegisterSubmit, registerSuccessful }: any) => {
+    if (registerSuccessful) { 
+        return (
+            <Redirect to="users" />
+        )
+    }
+    else {
+        return (
             <div>
-                <LabeledInput label='First Name' value={firstName} onChange={onFirstNameChange} />
-                <LabeledInput label='Last Name' value={lastName} onChange={onLastNameChange} />
-                <LabeledInput label='Email' value={email} onChange={onEmailChange} />
-                <LabeledInput label='Password' value={password} onChange={onPasswordChange} />
-                <LabeledInput label='Confirm Password' value={confirmPassword} onChange={onCOnfirmPasswordChange} />
-                <button onClick={onRegisterSubmit}>Register Now</button>
+                <h1>Register For Boston Prep Lib</h1>
+                <div>
+                    <LabeledInput label='First Name' value={firstName} onChange={onFirstNameChange} />
+                    <LabeledInput label='Last Name' value={lastName} onChange={onLastNameChange} />
+                    <LabeledInput label='Email' value={email} onChange={onEmailChange} />
+                    <LabeledInput label='Password' value={password} onChange={onPasswordChange} />
+                    <LabeledInput label='Confirm Password' value={confirmPassword} onChange={onCOnfirmPasswordChange} />
+                    <button onClick={onRegisterSubmit}>Register Now</button>
+                </div>
             </div>
-        </div>
-    )
+        )
+    }
 };
 
 

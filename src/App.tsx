@@ -1,33 +1,40 @@
 import * as React from 'react';
 import './App.css';
 
-import {Router, Switch, Route} from 'react-router';
-import {BrowserRouter} from 'react-router-dom';
+import { Provider } from 'react-redux';
 
-import {Routes, NavHeader} from './components/routes/routeComponents';
+import { Router, Switch, Route } from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
+
+
+import { Routes, NavHeader } from './components/routes/routeComponents';
 
 import Landing from './components/landing/landing';
 import Register from './components/register/registerComponent';
 import UsersList from './components/userList/userList';
+import Login from './components/login/login';
 
-class App extends React.Component {
-  render() {
-    const routesProps = {
-      Landing,
-      Register,
-      UsersList
-    }
-    return (
-      <div className="App">
-        <BrowserRouter>
-                    <div>
-                        <NavHeader/>
-                        <Routes {...routesProps} />
-                    </div>
-                </BrowserRouter>
-      </div>
-    );
+const App = ({ store }) => {
+
+  const routesProps = {
+    Landing,
+    Login,
+    Register,
+    UsersList
   }
+  console.warn(store.getState());
+  return (
+    <div className="App">
+      <Provider store={store}>
+        <BrowserRouter>
+          <div>
+            <NavHeader />
+            <Routes {...routesProps} />
+          </div>
+        </BrowserRouter>
+      </Provider>
+    </div>
+  );
 }
 
 export default App;

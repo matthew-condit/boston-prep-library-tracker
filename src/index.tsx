@@ -4,8 +4,20 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
+import { createStore } from 'redux';
+import reducers from './redux/reducers';
+import actions from './redux/actions/auth';
+
+const store = createStore(reducers);
+
+console.error(actions);
+store.dispatch(actions.login())
+// store.dispatch(actions.logout())
+// store.dispatch()
+
+
 ReactDOM.render(
-  <App />,
+  <App store={store} />,
   document.getElementById('root') as HTMLElement
 );
 

@@ -7,7 +7,9 @@ import rootReducer from './redux/reducers/index';
 
 export const history = createHistory();
 
-const initialState = {};
+const initialState = {
+    authenticated: false
+};
 const enhancers = [];
 const middleware = [
     thunk, 

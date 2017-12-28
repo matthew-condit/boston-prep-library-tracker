@@ -1,7 +1,5 @@
 import * as React from 'react';
 import { compose, withState, withHandlers } from 'recompose';
-import axios from 'axios';
-import classnames from 'classnames';
 
 const enhance = compose(
     // withState('userList', 'setUserList', []),

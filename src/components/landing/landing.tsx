@@ -4,7 +4,7 @@ const Landing = (props) => {
     console.error('hello world')
     return (
         <div>
-            Hello Boston Prep
+            Hello Boston Prep, welcome
         </div>
     )
 };
