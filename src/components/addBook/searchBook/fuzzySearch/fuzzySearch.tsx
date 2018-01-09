@@ -1,35 +1,35 @@
 import * as React from 'react';
-import { compose, withState, withHandlers, lifecycle } from 'recompose';
+import {compose, withState, withHandlers, lifecycle} from 'recompose';
 import LabeledInput from '../../../common/labeledInput/labeledInput';
 import axios from 'axios';
 
 const withBooksData = lifecycle({
     componentWillMount: async function () {
         const booksData = await axios.get('books');
-        // need to fix this on backend
-        this.props.setBooksList(booksData.data.splice(0, 20));
     }
 });
 
-const onSearchSubmit =  ({setSearchResults}) => async () => {
-
+const onSearchSubmit = ({searchString, setSearchString}) => async (e) => {
+    e.preventDefault();
+    console.log(searchString);
+    setSearchString('');
 };
 
 
 const enhance = compose(
-    // withState('booksList', 'setBooksList', []),
-    withBooksData,
+    withState('searchString', 'setSearchString', ''),
     withHandlers({
+        onSearchStringChange: props => e => props.setSearchString(e.target.value),
         onSearchSubmit
     })
 );
 
-const fuzzySearchPure = ({ onSearchSubmit }: any) => {
+const fuzzySearchPure = ({searchString, onSearchStringChange,
+                             onSearchSubmit}: any) => {
     return (
-        // add fuzzy vs. advanced
         <div>
-            <form>
-
+            <form onSubmit={onSearchSubmit}>
+                <LabeledInput label='Search All Books' value={searchString} onChange={onSearchStringChange}/>
             </form>
         </div>
     );

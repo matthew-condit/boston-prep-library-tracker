@@ -6,6 +6,7 @@ import LabeledInput from '../common/labeledInput/labeledInput';
 import actions from '../../redux/actions/auth';
 import { connect } from 'react-redux';
 
+import './register.css';
 
 
 const mapStateToProps = state => {
@@ -67,7 +68,7 @@ const RegisterPure = ({ firstName, onFirstNameChange,
     }
     else {
         return (
-            <div>
+            <div className='register'>
                 <h1>Register For Boston Prep Lib</h1>
                 <div>
                     <LabeledInput label='First Name' value={firstName} onChange={onFirstNameChange} />

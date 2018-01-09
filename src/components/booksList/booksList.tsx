@@ -7,13 +7,15 @@ const withBooksData = lifecycle({
     componentWillMount: async function () {
         const booksData = await axios.get('books');
         // need to fix this on backend
+        console.log(this.props)
         this.props.setBooksList(booksData.data.splice(0, 20));
     }
 });
 
 const enhance = compose(
     withState('booksList', 'setBooksList', []),
-    withBooksData
+    withBooksData,
+
 );
 
 const booksListPure = ({ booksList }: any) => {
