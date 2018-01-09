@@ -43,13 +43,11 @@ const onLoginButtonClicked = ({ email, password, setErrors, login }) => async ()
     } catch (e) {
         console.log('e', e)
     }
-
-
 }
 
 const enhance = compose(
-    withState('email', 'setEmail', ''),
-    withState('password', 'setPassword', ''),
+    withState('email', 'setEmail', 'matt.condit4@gmail.com'),
+    withState('password', 'setPassword', 'password'),
     withState('errors', 'setErrors', {}),
     withHandlers({
         onEmailChange: props => event => props.setEmail(event.target.value),
@@ -69,7 +67,12 @@ const loginPure = ({ email, onEmailChange,
         )
     }
     return (
-        <div>
+        <div className="login-page">
+
+            <div className="login-page__header">
+                <h1 className="login-page__header-title">Student Login</h1>
+                <img className="login-page__header-image" src="assets/images/bprep-logo.png" />
+            </div>
             <div>
                 {errors.email &&
                     <div className='login-error-message'>Please provide your email</div>
@@ -78,9 +81,16 @@ const loginPure = ({ email, onEmailChange,
                     <div className='login-error-message'>Please provide your password</div>
                 }
             </div>
-            <LabeledInput label='Email' value={email} onChange={onEmailChange} />
-            <LabeledInput label='Password' value={password} onChange={onPasswordChange} />
-            <button onClick={onLoginButtonClicked} className='login-page__submit-button'>Log In</button>
+            <LabeledInput label='Email'
+                          value={email}
+                          onChange={onEmailChange} />
+            <LabeledInput label='Password'
+                          value={password}
+                          onChange={onPasswordChange} />
+            <button onClick={onLoginButtonClicked}
+                    className='login-page__submit-button'>
+                    Log In
+            </button>
         </div>
     );
 };

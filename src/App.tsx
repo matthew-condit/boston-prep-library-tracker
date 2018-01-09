@@ -12,7 +12,9 @@ import { Routes, NavHeader } from './components/routes/routeComponents';
 import Landing from './components/landing/landing';
 import Register from './components/register/registerComponent';
 import UsersList from './components/userList/userList';
+import BooksList from './components/booksList/booksList';
 import Login from './components/login/login';
+import AddBook from './components/addBook/addBook';
 
 const App = ({ store }) => {
 
@@ -20,8 +22,11 @@ const App = ({ store }) => {
     Landing,
     Login,
     Register,
-    UsersList
-  }
+    UsersList,
+      BooksList,
+      AddBook
+  };
+
   console.warn(store.getState());
   return (
     <div className="App">

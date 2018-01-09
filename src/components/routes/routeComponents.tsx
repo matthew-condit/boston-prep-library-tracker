@@ -26,6 +26,8 @@ const NavHeaderPure = ({authenticated, login, logout}) => {
                 <div className='nav-link' onClick={logout}>Logout</div>
                 <WrappedNavLink exact to='/'>Home</WrappedNavLink>
                 <WrappedNavLink to='/users'>UsersList</WrappedNavLink>
+                <WrappedNavLink to='/books'>Books List</WrappedNavLink>
+                <WrappedNavLink to='/addBook'>Add Book</WrappedNavLink>
             </div>
         )
     }
@@ -34,13 +36,20 @@ const NavHeaderPure = ({authenticated, login, logout}) => {
 
 // can you spread an object into another object?!?!
 // plz research
-const Routes = ({Landing, Login, Register, UsersList}: any) => {
+const Routes = ({Landing,
+    Login,
+    Register,
+    UsersList,
+    BooksList,
+    AddBook}: any) => {
     return (
         <div className='route-wrapper'>
             <Route exact path="/" component={Landing}/>
             <Route path="/register" component={Register}/>
             <Route path='/users' component={UsersList}/>
             <Route path='/login' component={Login}/>
+            <Route path='/books' component={BooksList} />
+            <Route path="/addBook" component={AddBook} />
         </div>
     )
 };
@@ -49,7 +58,7 @@ const mapStateToProps = state => {
     return {
         authenticated: state.authReducer.authenticated
     }
-}
+};
 
 const mapDispatchToProps = dispatch => {
     return {
