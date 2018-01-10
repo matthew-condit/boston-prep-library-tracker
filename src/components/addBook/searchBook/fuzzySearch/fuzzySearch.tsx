@@ -9,9 +9,14 @@ const withBooksData = lifecycle({
     }
 });
 
-const onSearchSubmit = ({searchString, setSearchString}) => async (e) => {
+const onSearchSubmit = ({searchString, setSearchString, onSearchSubmit}) => async (e) => {
     e.preventDefault();
     console.log(searchString);
+    const response = await axios.post('/books/search/general', {
+        searchString
+    });
+    console.log(response);
+    onSearchSubmit(response.data);
     setSearchString('');
 };
 
@@ -33,6 +38,6 @@ const fuzzySearchPure = ({searchString, onSearchStringChange,
             </form>
         </div>
     );
-}
+};
 
 export default enhance(fuzzySearchPure);

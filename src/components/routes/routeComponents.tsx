@@ -28,6 +28,7 @@ const NavHeaderPure = ({authenticated, login, logout}) => {
                 <WrappedNavLink to='/users'>UsersList</WrappedNavLink>
                 <WrappedNavLink to='/books'>Books List</WrappedNavLink>
                 <WrappedNavLink to='/addBook'>Add Book</WrappedNavLink>
+                <WrappedNavLink to='/myBooks'>My Books</WrappedNavLink>
             </div>
         )
     }
@@ -36,20 +37,26 @@ const NavHeaderPure = ({authenticated, login, logout}) => {
 
 // can you spread an object into another object?!?!
 // plz research
-const Routes = ({Landing,
-    Login,
-    Register,
-    UsersList,
-    BooksList,
-    AddBook}: any) => {
+const Routes = ({
+                    Landing,
+                    Login,
+                    Register,
+                    UsersList,
+                    BrowseBooks,
+                    BookOverview,
+                    BookHistory,
+                    AddBook
+                }: any) => {
     return (
         <div className='route-wrapper'>
             <Route exact path="/" component={Landing}/>
             <Route path="/register" component={Register}/>
             <Route path='/users' component={UsersList}/>
             <Route path='/login' component={Login}/>
-            <Route path='/books' component={BooksList} />
-            <Route path="/addBook" component={AddBook} />
+            <Route path='/books' component={BrowseBooks}/>
+            <Route path='/bookOverview/:id' component={BookOverview}/>
+            <Route path="/addBook" component={AddBook}/>
+            <Route path="/myBooks" component={BookHistory}/>
         </div>
     )
 };

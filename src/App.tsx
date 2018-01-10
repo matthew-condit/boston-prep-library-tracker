@@ -12,8 +12,10 @@ import { Routes, NavHeader } from './components/routes/routeComponents';
 import Landing from './components/landing/landing';
 import Register from './components/register/registerComponent';
 import UsersList from './components/userList/userList';
-import BooksList from './components/booksList/booksList';
+import BrowseBooks from './components/browseBooks/browseBooks';
 import Login from './components/login/login';
+import BookOverview from './components/bookOverview/bookOverview';
+import BookHistory from './components/bookHistory/bookHistory';
 import AddBook from './components/addBook/addBook';
 
 const App = ({ store }) => {
@@ -23,7 +25,9 @@ const App = ({ store }) => {
     Login,
     Register,
     UsersList,
-      BooksList,
+      BrowseBooks,
+      BookOverview,
+      BookHistory,
       AddBook
   };
 

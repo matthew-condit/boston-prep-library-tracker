@@ -12,8 +12,9 @@ const withBooksData = lifecycle({
     }
 });
 
-const onSearchSubmit =  ({setSearchResults}) => async () => {
-
+const onSearchSubmit =  ({setSearchResults}) => async (searchResults) => {
+    console.log(searchResults);
+    setSearchResults(searchResults);
 };
 
 
@@ -26,10 +27,11 @@ const enhance = compose(
 );
 
 const searchBookPure = ({ onSearchSubmit }: any) => {
+    const fuzzySearchProps ={ onSearchSubmit };
     return (
         // add fuzzy vs. advanced
         <div>
-            <FuzzySearch />
+            <FuzzySearch {...fuzzySearchProps}/>
         </div>
     );
 }

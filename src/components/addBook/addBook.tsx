@@ -15,13 +15,14 @@ const addBookPure = ({ searchResults, setSearchResults }: any) => {
     };
 
     const bookListProps = {
-        searchResults
+        booksList: searchResults
     };
+    console.log(searchResults)
     return (
         <div className='add-book'>
             <h1>Add Book View</h1>
             <SearchBook {...searchProps} />
-            <BooksList {...bookListProps} />
+            <BooksList booksList={searchResults} />
         </div>
     );
 };
