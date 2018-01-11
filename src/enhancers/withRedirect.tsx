@@ -25,7 +25,7 @@ const enhanceWithRedirect = () => {
                 this.setState({
                     redirect
                 });
-            }
+            };
 
             render() {
                 if (this.state.redirect) {
