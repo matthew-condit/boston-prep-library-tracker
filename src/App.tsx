@@ -17,6 +17,7 @@ import Login from './components/login/login';
 import BookOverview from './components/bookOverview/bookOverview';
 import BookHistory from './components/bookHistory/bookHistory';
 import AddBook from './components/addBook/addBook';
+import SearchBook from './components/searchBook/searchBook';
 
 const App = ({ store }) => {
 
@@ -28,6 +29,7 @@ const App = ({ store }) => {
       BrowseBooks,
       BookOverview,
       BookHistory,
+      SearchBook,
       AddBook
   };
 

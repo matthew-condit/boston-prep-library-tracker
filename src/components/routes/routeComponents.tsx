@@ -27,8 +27,8 @@ const NavHeaderPure = ({authenticated, login, logout}) => {
                 <WrappedNavLink exact to='/'>Home</WrappedNavLink>
                 <WrappedNavLink to='/users'>UsersList</WrappedNavLink>
                 <WrappedNavLink to='/books'>Books List</WrappedNavLink>
-                <WrappedNavLink to='/addBook'>Add Book</WrappedNavLink>
-                <WrappedNavLink to='/myBooks'>My Books</WrappedNavLink>
+                <WrappedNavLink to='/search-books'>Add Book</WrappedNavLink>
+                <WrappedNavLink to='/my-books'>My Books</WrappedNavLink>
             </div>
         )
     }
@@ -45,7 +45,8 @@ const Routes = ({
                     BrowseBooks,
                     BookOverview,
                     BookHistory,
-                    AddBook
+                    AddBook,
+                    SearchBook
                 }: any) => {
     return (
         <div className='route-wrapper'>
@@ -54,23 +55,24 @@ const Routes = ({
             <Route path='/users' component={UsersList}/>
             <Route path='/login' component={Login}/>
             <Route path='/books' component={BrowseBooks}/>
-            <Route path='/bookOverview/:id' component={BookOverview}/>
-            <Route path="/addBook" component={AddBook}/>
-            <Route path="/myBooks" component={BookHistory}/>
+            <Route path='/book-overview/:id' component={BookOverview}/>
+            <Route path='/book/add/:id' component={AddBook}/>
+            <Route path="/search-books" component={SearchBook}/>
+            <Route path="/my-books" component={BookHistory}/>
         </div>
     )
 };
 
 const mapStateToProps = state => {
     return {
-        authenticated: state.authReducer.authenticated
+        authenticated: state.auth.authenticated
     }
 };
 
 const mapDispatchToProps = dispatch => {
     return {
         login: () => {
-            dispatch(actions.login())
+            dispatch(actions.login({}))
         },
         logout: () => {
             dispatch(actions.logout())

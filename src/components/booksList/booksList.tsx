@@ -16,6 +16,6 @@ const booksListPure = ({ booksList }: any) => {
             </div>
         </div>
     );
-}
+};
 
 export default booksListPure;

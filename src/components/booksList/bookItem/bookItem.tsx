@@ -13,7 +13,7 @@ const enhance = compose(
 
 const bookItemPure = ({book, clicked, setClicked}: any) => {
     if (clicked) {
-        const link = `/bookOverview/${book.id}`;
+        const link = `/book-overview/${book.id}`;
         return (
             <Redirect to={link}/>
         )
@@ -21,8 +21,8 @@ const bookItemPure = ({book, clicked, setClicked}: any) => {
         return (
             <div className='BookItem'
                  onClick={() => setClicked(true)}>
-                <div>Title: {book.title}</div>
-                <div>Author: {book.author}</div>
+                <div className='BookItem__title'>{book.title}</div>
+                <div className='BookItem__author'>{book.author}</div>
             </div>
         );
     }

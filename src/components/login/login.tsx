@@ -10,17 +10,17 @@ import './login.css';
 
 const mapStateToProps = state => {
     return {
-        authenticated: state.authReducer.authenticated
+        authenticated: state.auth.authenticated
     }
-}
+};
 
 const mapDispatchToProps = dispatch => {
     return {
-        login: () => {
-            dispatch(actions.login())
+        login: (user) => {
+            dispatch(actions.login(user))
         }
     }
-}
+};
 
 const onLoginButtonClicked = ({ email, password, setErrors, login }) => async () => {
     if (!email || !password) {
@@ -36,9 +36,9 @@ const onLoginButtonClicked = ({ email, password, setErrors, login }) => async ()
             password
         });
         if (res.status === 200) {
-            login()
+            login(res)
         } else {
-            console.log(res)
+            console.log(res.data.user)
         }
     } catch (e) {
         console.log('e', e)

@@ -1,9 +1,10 @@
 import {LOGIN, LOGOUT} from './actionTypes';
 
-const login = () => {
+const login = (user) => {
     return {
         type: LOGIN,
-        authenticated: true
+        authenticated: true,
+        user
     }
 }
 

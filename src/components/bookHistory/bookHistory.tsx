@@ -5,8 +5,11 @@ import BookList from '../booksList/booksList';
 
 const withBooksData = lifecycle({
     componentWillMount: async function () {
-        const booksData = await axios.get('books');
-        this.props.setBooksList(booksData.data.splice(0, 20));
+        const booksData = await axios.post('users/booksByUser', {
+            userId: 1
+        });
+        console.log(booksData);
+        this.props.setBooksList(booksData.data);
     }
 });
 

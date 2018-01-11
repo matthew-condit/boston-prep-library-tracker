@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {compose, withState, withHandlers, lifecycle} from 'recompose';
-import LabeledInput from '../../../common/labeledInput/labeledInput';
+import LabeledInput from '../../common/labeledInput/labeledInput';
 import axios from 'axios';
 
 const withBooksData = lifecycle({

@@ -1,5 +1,19 @@
 .BookItem {
-    border: 1px solid #cccccc;
+    border: 2px solid #aaa;
     padding: 50px 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #f0f0f0;
+}
 
+.BookItem:hover {
+    background-color: #d6d6d6;
+}
+
+.BookItem__title {
+    font-size: 1.2em;
+}
+
+.BookItem__author {
+    font-size: 0.9em;
 }

@@ -1,25 +1,25 @@
 import { LOGIN, LOGOUT } from '../actions/actionTypes';
 
 const initialState = {
-    authenticated: true // temp
+    user: {}
 }
 
-const authReducer = (state = initialState, action) => {
+const userReducer = (state = initialState, action) => {
     switch (action.type) {
         // case:
-        case LOGIN: 
+        case LOGIN:
             return {
                 ...state,
-                authenticated: action.authenticated
-            }
+                user: action.payload
+            };
         case LOGOUT:
             return {
                 ...state,
-                authenticated: action.authenticated
+                user: {}
             };
         default:
             return state;
     }
 }
 
-export default authReducer;
+export default userReducer;
