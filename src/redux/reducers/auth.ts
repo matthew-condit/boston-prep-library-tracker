@@ -11,7 +11,7 @@ const authReducer = (state = initialState, action) => {
             return {
                 ...state,
                 authenticated: action.authenticated
-            }
+            };
         case LOGOUT:
             return {
                 ...state,
@@ -20,6 +20,6 @@ const authReducer = (state = initialState, action) => {
         default:
             return state;
     }
-}
+};
 
 export default authReducer;

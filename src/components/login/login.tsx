@@ -36,7 +36,7 @@ const onLoginButtonClicked = ({ email, password, setErrors, login }) => async ()
             password
         });
         if (res.status === 200) {
-            login(res)
+            login(res.data.user)
         } else {
             console.log(res.data.user)
         }

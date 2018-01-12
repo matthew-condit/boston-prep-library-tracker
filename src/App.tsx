@@ -18,7 +18,7 @@ import BookOverview from './components/bookOverview/bookOverview';
 import BookHistory from './components/bookHistory/bookHistory';
 import AddBook from './components/addBook/addBook';
 import SearchBook from './components/searchBook/searchBook';
-
+import Profile from './components/profile/profile';
 const App = ({ store }) => {
 
   const routesProps = {
@@ -30,7 +30,8 @@ const App = ({ store }) => {
       BookOverview,
       BookHistory,
       SearchBook,
-      AddBook
+      AddBook,
+      Profile
   };
 
   console.warn(store.getState());

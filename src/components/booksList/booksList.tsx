@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { compose, withState, withHandlers, lifecycle } from 'recompose';
 import axios from 'axios';
-import BookItem from './bookItem/bookItem';
+import BookItem from '../bookItem/bookItem';
 
 import './booksList.css';
 

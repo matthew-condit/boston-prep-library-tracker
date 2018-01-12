@@ -1,6 +1,7 @@
 import {LOGIN, LOGOUT} from './actionTypes';
 
 const login = (user) => {
+    console.warn(user);
     return {
         type: LOGIN,
         authenticated: true,

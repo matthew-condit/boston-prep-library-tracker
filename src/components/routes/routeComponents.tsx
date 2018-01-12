@@ -11,8 +11,7 @@ const WrappedNavLink = (props) => {
     );
 };
 
-const NavHeaderPure = ({authenticated, login, logout}) => {
-
+const NavHeaderPure = ({authenticated, isAdmin,  login, logout}) => {
     if (!authenticated) {
         return (
             <div className='nav-header'>
@@ -21,16 +20,31 @@ const NavHeaderPure = ({authenticated, login, logout}) => {
             </div>
         )
     } else {
-        return (
-            <div className='nav-header'>
-                <div className='nav-link' onClick={logout}>Logout</div>
-                <WrappedNavLink exact to='/'>Home</WrappedNavLink>
-                <WrappedNavLink to='/users'>UsersList</WrappedNavLink>
-                <WrappedNavLink to='/books'>Books List</WrappedNavLink>
-                <WrappedNavLink to='/search-books'>Add Book</WrappedNavLink>
-                <WrappedNavLink to='/my-books'>My Books</WrappedNavLink>
-            </div>
-        )
+        if (isAdmin) {
+            return (
+                <div className='nav-header'>
+                    <div className='nav-link' onClick={logout}>Logout</div>
+                    <WrappedNavLink exact to='/'>Home</WrappedNavLink>
+                    <WrappedNavLink to='/users'>UsersList</WrappedNavLink>
+                    <WrappedNavLink to='/books'>Books List</WrappedNavLink>
+                    <WrappedNavLink to='/search-books'>Add Book</WrappedNavLink>
+                    <WrappedNavLink to='/my-books'>My Books</WrappedNavLink>
+                    <WrappedNavLink to='/profile'>My profile</WrappedNavLink>
+                </div>
+            )
+        } else {
+            return (
+                <div className='nav-header'>
+                    <div className='nav-link' onClick={logout}>Logout</div>
+                    <WrappedNavLink exact to='/'>Home</WrappedNavLink>
+                    <WrappedNavLink to='/users'>UsersList</WrappedNavLink>
+                    <WrappedNavLink to='/books'>Books List</WrappedNavLink>
+                    <WrappedNavLink to='/search-books'>Add Book</WrappedNavLink>
+                    <WrappedNavLink to='/my-books'>My Books</WrappedNavLink>
+                    <WrappedNavLink to='/profile'>My profile</WrappedNavLink>
+                </div>
+            )
+        }
     }
 
 };
@@ -46,7 +60,9 @@ const Routes = ({
                     BookOverview,
                     BookHistory,
                     AddBook,
-                    SearchBook
+                    SearchBook,
+                    Profile,
+                    Admin
                 }: any) => {
     return (
         <div className='route-wrapper'>
@@ -59,13 +75,18 @@ const Routes = ({
             <Route path='/book/add/:id' component={AddBook}/>
             <Route path="/search-books" component={SearchBook}/>
             <Route path="/my-books" component={BookHistory}/>
+            <Route path="/profile" component={Profile}/>
+            <Route path="/profile" component={Admin}/>
+            {/*<Route path="*" component={Login} />*/}
         </div>
     )
 };
 
 const mapStateToProps = state => {
+    console.log(state);
     return {
-        authenticated: state.auth.authenticated
+        authenticated: state.auth.authenticated,
+        isAdmin: state.user.user.role === 'admin'
     }
 };
 

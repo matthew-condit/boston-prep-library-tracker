@@ -1,9 +1,3 @@
-
-const BASE_STORAGE_ID = ``;
-const CONSTANTS = {
-
-}
-
-export {
-
+export default {
+    USER: "BOSTON_PREP_USER"
 }
