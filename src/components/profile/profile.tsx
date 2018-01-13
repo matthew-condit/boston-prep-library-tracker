@@ -6,20 +6,20 @@ import actions from '../../redux/actions/auth';
 
 import { enhanceWithRedirect } from '../../enhancers/index';
 
-// const withUserData = lifecycle({
-//     componentWillMount: async function () {
-//         const booksData = await axios.get(`../books/${this.props.match.params.id}`);
-//         // this.props.setBook(booksData.data);
-//     }
-// });
+const withUserData = lifecycle({
+    componentWillMount: async function () {
+        const userData = await axios.get(`../users/details/${this.props.user.id}`);
+        this.props.setUserDetails(userData.data);
+    }
+});
 
 // const onAddBookClicked = ({book, setRedirect}) => async (e) => {
 //     setRedirect(`../book/add/${book.id}`);
 // };
 
 const enhance = compose(
-    // withState('book', 'setBook', {}),
-    // withBookData,
+    withState('userDetails', 'setUserDetails', null),
+    withUserData,
     // withHandlers({
     //     onAddBookClicked
     // })
@@ -28,12 +28,13 @@ const enhance = compose(
 
 
 
-const ProfilePure = ({ user, onAddBookClicked}: any) => {
-    if (user) {
-        console.log(user, 'fdsafd');
+const ProfilePure = ({ userDetails, user, onAddBookClicked}: any) => {
+    if (userDetails) {
+        console.log(userDetails, 'fdsafd');
         return (
             <div className='BookItem'>
-                <div>{user.firstname} {user.lastname}</div>
+                <div>{userDetails.firstname} {userDetails.lastname}</div>
+                <div>Class {userDetails.classroom.classname}</div>
             </div>
         );
     } else {
@@ -63,11 +64,11 @@ const mapDispatchToProps = dispatch => {
     }
 };
 
-const ProfileWithStore = connect(
+const connector = connect(
     mapStateToProps,
     mapDispatchToProps,
     null,
     {pure: false}
-)(ProfilePure);
+);
 
-export default enhanceWithRedirect()(ProfileWithStore);
+export default connector(enhanceWithRedirect()(enhance(ProfilePure)));

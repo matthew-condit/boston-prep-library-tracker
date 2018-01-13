@@ -42,6 +42,7 @@ const NavHeaderPure = ({authenticated, isAdmin,  login, logout}) => {
                     <WrappedNavLink to='/search-books'>Add Book</WrappedNavLink>
                     <WrappedNavLink to='/my-books'>My Books</WrappedNavLink>
                     <WrappedNavLink to='/profile'>My profile</WrappedNavLink>
+                    <WrappedNavLink to='/classroom'>Classroom List</WrappedNavLink>
                 </div>
             )
         }
@@ -62,7 +63,8 @@ const Routes = ({
                     AddBook,
                     SearchBook,
                     Profile,
-                    Admin
+                    Admin,
+                    ClassRooms
                 }: any) => {
     return (
         <div className='route-wrapper'>
@@ -77,6 +79,7 @@ const Routes = ({
             <Route path="/my-books" component={BookHistory}/>
             <Route path="/profile" component={Profile}/>
             <Route path="/profile" component={Admin}/>
+            <Route path="/classroom" component={ClassRooms }/>
             {/*<Route path="*" component={Login} />*/}
         </div>
     )

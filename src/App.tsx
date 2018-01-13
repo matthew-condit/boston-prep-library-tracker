@@ -19,6 +19,7 @@ import BookHistory from './components/bookHistory/bookHistory';
 import AddBook from './components/addBook/addBook';
 import SearchBook from './components/searchBook/searchBook';
 import Profile from './components/profile/profile';
+import ClassRooms from './components/classrooms/classrooms';
 const App = ({ store }) => {
 
   const routesProps = {
@@ -31,7 +32,8 @@ const App = ({ store }) => {
       BookHistory,
       SearchBook,
       AddBook,
-      Profile
+      Profile,
+      ClassRooms
   };
 
   console.warn(store.getState());
