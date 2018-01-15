@@ -20,30 +20,23 @@ const NavHeaderPure = ({authenticated, isAdmin,  login, logout}) => {
             </div>
         )
     } else {
+        const ret = <div className='nav-header'>
+            <div className='nav-link' onClick={logout}>Logout</div>
+            <WrappedNavLink exact to='/'>Home</WrappedNavLink>
+            <WrappedNavLink to='/users'>UsersList</WrappedNavLink>
+            <WrappedNavLink to='/books'>Books List</WrappedNavLink>
+            <WrappedNavLink to='/search-books'>Add Book</WrappedNavLink>
+            <WrappedNavLink to='/my-books'>My Books</WrappedNavLink>
+            <WrappedNavLink to='/profile'>My profile</WrappedNavLink>
+            <WrappedNavLink to='/classroom'>Classroom List</WrappedNavLink>
+        </div>;
         if (isAdmin) {
             return (
-                <div className='nav-header'>
-                    <div className='nav-link' onClick={logout}>Logout</div>
-                    <WrappedNavLink exact to='/'>Home</WrappedNavLink>
-                    <WrappedNavLink to='/users'>UsersList</WrappedNavLink>
-                    <WrappedNavLink to='/books'>Books List</WrappedNavLink>
-                    <WrappedNavLink to='/search-books'>Add Book</WrappedNavLink>
-                    <WrappedNavLink to='/my-books'>My Books</WrappedNavLink>
-                    <WrappedNavLink to='/profile'>My profile</WrappedNavLink>
-                </div>
+                ret
             )
         } else {
             return (
-                <div className='nav-header'>
-                    <div className='nav-link' onClick={logout}>Logout</div>
-                    <WrappedNavLink exact to='/'>Home</WrappedNavLink>
-                    <WrappedNavLink to='/users'>UsersList</WrappedNavLink>
-                    <WrappedNavLink to='/books'>Books List</WrappedNavLink>
-                    <WrappedNavLink to='/search-books'>Add Book</WrappedNavLink>
-                    <WrappedNavLink to='/my-books'>My Books</WrappedNavLink>
-                    <WrappedNavLink to='/profile'>My profile</WrappedNavLink>
-                    <WrappedNavLink to='/classroom'>Classroom List</WrappedNavLink>
-                </div>
+                ret
             )
         }
     }
@@ -86,7 +79,7 @@ const Routes = ({
 };
 
 const mapStateToProps = state => {
-    console.log(state);
+    console.log(state.user.user);
     return {
         authenticated: state.auth.authenticated,
         isAdmin: state.user.user.role === 'admin'

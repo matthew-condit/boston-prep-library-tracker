@@ -46,8 +46,8 @@ const onLoginButtonClicked = ({ email, password, setErrors, login }) => async ()
 }
 
 const enhance = compose(
-    withState('email', 'setEmail', 'matt.condit4@gmail.com'),
-    withState('password', 'setPassword', 'password'),
+    withState('email', 'setEmail', 'agaburo@colgate.edu'),
+    withState('password', 'setPassword', 'admin'),
     withState('errors', 'setErrors', {}),
     withHandlers({
         onEmailChange: props => event => props.setEmail(event.target.value),

@@ -1,7 +1,8 @@
 import { LOGIN, LOGOUT } from '../actions/actionTypes';
 
 const initialState = {
-    user: {}
+    user: {},
+    isAdmin: false
 }
 
 const userReducer = (state = initialState, action) => {
@@ -10,7 +11,8 @@ const userReducer = (state = initialState, action) => {
         case LOGIN:
             return {
                 ...state,
-                user: action.user
+                user: action.user,
+                isAdmin: action.user.role === 'admin'
             };
         case LOGOUT:
             return {
